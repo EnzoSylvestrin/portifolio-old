@@ -21,6 +21,10 @@ export default function Header() {
     useEffect(() => {
         if (cont == 0) {
             cont++;
+
+            var color1 = document.getElementById('clr1');
+            var color2 = document.getElementById('clr2');
+            var color3 = document.getElementById('clr3');
             const sidebarWrapper = document.getElementById('sidebar-wrapper');
             const menuToggle = document.body.querySelector('.menu-toggle');
             menuToggle.addEventListener('click', event => {
@@ -39,6 +43,18 @@ export default function Header() {
                 })
                 return scrollTrigger;
             });
+
+            color1.addEventListener('input', () => {
+                document.body.style.setProperty('--color1', color1.value);
+            });
+
+            color2.addEventListener('input', () => {
+                document.body.style.setProperty('--color2', color2.value);
+            });
+
+            color3.addEventListener('input', () => {
+                document.body.style.setProperty('--color3', color3.value);
+            });
         }
     }, []);
 
@@ -54,6 +70,12 @@ export default function Header() {
                     <li class="sidebar-nav-item"><a href="#certificates">Certificados</a></li>
                     <li class="sidebar-nav-item"><a href="#projects">Projetos</a></li>
                 </ul>
+                <div class="cores">
+                    <h3>Escolha suas cores</h3>
+                    <input type="color" defaultValue="#d82b88" id="clr1" />
+                    <input type="color" defaultValue="#1c8f97" id="clr2" />
+                    <input type="color" defaultValue="#2a2374" id="clr3" />
+                </div>
             </nav>
         </header>
     );

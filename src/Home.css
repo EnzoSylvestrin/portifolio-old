@@ -1,3 +1,23 @@
-.App {
+.container {
+  background: #000;
+  height: 100vh;
+
+  /* Center everything in the page */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
   text-align: center;
+  font-size: 5rem;
+  background:
+    linear-gradient(to right,
+      var(--color1),
+      var(--color2),
+      var(--color3));
+  display: inline-block;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
