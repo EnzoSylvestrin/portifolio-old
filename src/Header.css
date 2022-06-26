@@ -769,8 +769,11 @@
 }
 
 .cores {
-    margin-top: 340px;
+    margin-top: 400px;
+    padding: 5px;
+    padding-bottom: 20px;
     display: block;
+    background: rgba(52, 58, 64, 0.1);
 }
 
 .cores[input=color] {
@@ -803,4 +806,11 @@ input[type=color]::-webkit-color-swatch-wrapper {
     border: none;
     border-radius: 50%;
     padding: 0;
+}
+
+.clock {
+    position: absolute;
+    bottom: 0px;
+    right: 56px;
+    text-align: center;
 }

@@ -1,4 +1,5 @@
 import './Header.css'
+import Clock from './clock.js'
 import { useEffect, useState } from 'react';
 
 export default function Header() {
@@ -75,6 +76,9 @@ export default function Header() {
                     <input type="color" defaultValue="#d82b88" id="clr1" />
                     <input type="color" defaultValue="#1c8f97" id="clr2" />
                     <input type="color" defaultValue="#2a2374" id="clr3" />
+                </div>
+                <div class="clock">
+                    <Clock />
                 </div>
             </nav>
         </header>
