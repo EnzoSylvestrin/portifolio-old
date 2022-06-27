@@ -814,3 +814,11 @@ input[type=color]::-webkit-color-swatch-wrapper {
     right: 56px;
     text-align: center;
 }
+
+.clock p {
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    color: #ccc;
+    letter-spacing: 0.1rem;
+}

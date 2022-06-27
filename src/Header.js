@@ -73,9 +73,9 @@ export default function Header() {
                 </ul>
                 <div class="cores">
                     <h3>Escolha suas cores</h3>
-                    <input type="color" defaultValue="#d82b88" id="clr1" />
-                    <input type="color" defaultValue="#1c8f97" id="clr2" />
-                    <input type="color" defaultValue="#2a2374" id="clr3" />
+                    <input type="color" defaultValue="#ff008c" id="clr1" />
+                    <input type="color" defaultValue="#03f0fc" id="clr2" />
+                    <input type="color" defaultValue="#1804fb" id="clr3" />
                 </div>
                 <div class="clock">
                     <Clock />
