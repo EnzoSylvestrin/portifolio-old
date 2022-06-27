@@ -1,5 +1,5 @@
 .container {
-  background: #000;
+  background: var(--bgColor);
   height: 100vh;
 
   /* Center everything in the page */

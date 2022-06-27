@@ -24,7 +24,7 @@ export default function Clock() {
     });
     
     return (
-        <div>
+        <div class="clock">
             <p>{hora.toString().padStart(2, "0")}:{minuto.toString().padStart(2, "0")}:{segundo.toString().padStart(2, "0")}</p>
         </div>
     );

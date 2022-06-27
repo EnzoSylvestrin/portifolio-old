@@ -2,6 +2,9 @@
   --color1: #ff008c;
   --color2: #03f0fc;
   --color3: #1804fb;
+  --bgColor: #000;
+  --textColor: #ccc;
+  --iconColor: #fff;
 }
 
 * {

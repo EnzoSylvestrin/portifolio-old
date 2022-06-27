@@ -711,7 +711,7 @@
     height: 100%;
     transition: all 0.4s ease 0s;
     transform: translateX(250px);
-    background: #551d9f;
+    background: #191818;
     border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -727,7 +727,15 @@
 .sidebar-nav li.sidebar-nav-item a {
     display: block;
     text-decoration: none;
-    color: #fff;
+    background:
+        linear-gradient(to right,
+            var(--color1),
+            var(--color2),
+            var(--color3));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    opacity: 1;
     padding: 15px;
 }
 
@@ -753,7 +761,14 @@
 }
 
 .sidebar-nav>.sidebar-brand a {
-    color: #fff;
+    background:
+        linear-gradient(to right,
+            var(--color1),
+            var(--color2),
+            var(--color3));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     text-decoration: none;
 }
 
@@ -769,7 +784,7 @@
 }
 
 .cores {
-    margin-top: 400px;
+    margin-top: 350px;
     padding: 5px;
     padding-bottom: 20px;
     display: block;
@@ -782,7 +797,14 @@
 
 h3 {
     text-align: center;
-    color: #fff;
+    background:
+        linear-gradient(to right,
+            var(--color1),
+            var(--color2),
+            var(--color3));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     margin: 10px 0;
     font-weight: normal;
 }
@@ -794,6 +816,11 @@ input[type=color] {
     border-radius: 60%;
     overflow: hidden;
     margin-left: 25px;
+    cursor: pointer;
+}
+
+#clr1 {
+    margin-left: 20px;
 }
 
 input[type=color]::-webkit-color-swatch {
@@ -819,6 +846,32 @@ input[type=color]::-webkit-color-swatch-wrapper {
     padding: 15px;
     text-align: center;
     font-size: 22px;
-    color: #ccc;
+    background:
+        linear-gradient(to right,
+            var(--color1),
+            var(--color2),
+            var(--color3));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     letter-spacing: 0.1rem;
+}
+
+.tema {
+    margin-top: 20px;
+}
+
+.tema a {
+    text-decoration: none;
+    color: #000;
+}
+
+#dark-theme {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    right: 63px;
 }
