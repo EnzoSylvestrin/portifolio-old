@@ -11,15 +11,17 @@ export default function Tema() {
             darkMode.addEventListener('click', event => {
                 event.preventDefault();
                 var darkTheme = document.getElementById('dark-theme');
-                if (darkTheme.classList.contains('fa-moon')) {
+                if (darkTheme.classList.contains('fa-sun')) {
                     document.body.style.setProperty('--bgColor', "#fff");
-                    darkTheme.classList.remove('fa-moon');
-                    darkTheme.classList.add('fa-sun');
+                    document.body.style.setProperty('--textColor', "#000");
+                    darkTheme.classList.remove('fa-sun');
+                    darkTheme.classList.add('fa-moon');
                 }
                 else {
                     document.body.style.setProperty('--bgColor', "#000");
-                    darkTheme.classList.remove('fa-sun');
-                    darkTheme.classList.add('fa-moon');
+                    document.body.style.setProperty('--textColor', "#fff");
+                    darkTheme.classList.remove('fa-moon');
+                    darkTheme.classList.add('fa-sun');
                 }
             });
         }
@@ -28,7 +30,7 @@ export default function Tema() {
 
     return (
         <div class="tema">
-            <a href="#" id="darkMode"><i class="fa fa-moon" id="dark-theme"></i></a>
+            <a href="#" id="darkMode"><i class="fa fa-sun" id="dark-theme"></i></a>
         </div>
     );
 }

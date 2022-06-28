@@ -1,23 +1,62 @@
-.container {
+.home {
   background: var(--bgColor);
   height: 100vh;
 
   /* Center everything in the page */
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
-h1 {
-  text-align: center;
-  font-size: 5rem;
+.max-width {
+  padding: 0 80px;
+  margin: 0, 10px;
+}
+
+.texto1 {
+  margin-top: -40px;
+  width: 250px;
+  font-size: 20px;
+  color: var(--textColor);
+  letter-spacing: 0.05rem;
+}
+
+.texto2 {
+  font-size: 78px;
+  font-weight: bold;
+  margin-left: -5px;
   background:
     linear-gradient(to right,
       var(--color1),
       var(--color2),
       var(--color3));
-  display: inline-block;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+
+}
+
+.home a {
+  display: inline-block;
+  background: rgb(1, 196, 202);
+  color: #fff;
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 20px;
+  font-weight: 400;
+  border-radius: 6px;
+  border: 2px solid rgb(0, 197, 204);
+  transition: all 0.3s ease;
+}
+
+.home a:hover {
+  color: rgb(71, 232, 238);
+  background: rgba(1, 196, 202, 0.6);
+  border: #00FFFF solid 1px;
+}
+
+.texto3 {
+  margin-left: -15px;
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(238, 71, 196);
 }

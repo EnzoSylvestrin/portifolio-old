@@ -1,4 +1,4 @@
-import './Header.css'
+import './css/Header.css'
 import Clock from './clock.js'
 import MenuColor from './menuColor.js';
 import Tema from './Tema.js';
@@ -42,9 +42,7 @@ export default function Header() {
                     _toggleMenuIcon();
                 })
                 return scrollTrigger;
-            });
-
-            
+            }); 
         }
     }, []);
 
