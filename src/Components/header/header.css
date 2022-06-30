@@ -644,10 +644,6 @@
     color: rgba(0, 0, 0, 0.9);
 }
 
-.navbar-dark .navbar-brand {
-    color: #fff;
-}
-
 .navbar-dark .navbar-brand:hover,
 .navbar-dark .navbar-brand:focus {
     color: #fff;
@@ -774,6 +770,10 @@
 }
 
 .sidebar-nav>.sidebar-brand a {
+    text-decoration: none;
+}
+
+.sidebar-nav>.sidebar-brand span {
     background:
         linear-gradient(to right,
             var(--color1),
@@ -782,11 +782,9 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    text-decoration: none;
 }
 
 .sidebar-nav>.sidebar-brand a:hover {
-    color: #fff;
     background: none;
 }
 
@@ -852,9 +850,8 @@ input[type=color]::-webkit-color-swatch-wrapper {
 }
 
 .clock {
-    position: absolute;
-    bottom: 0px;
-    right: 56px;
+    display: block;
+    margin: 5px auto;
     text-align: center;
 }
 
@@ -891,8 +888,6 @@ input[type=color]::-webkit-color-swatch-wrapper {
     display: block;
     margin: 0 auto;
     padding: 0.5rem 1rem;
-    position: absolute;
-    right: 63px;
 }
 
 .bar-icon {

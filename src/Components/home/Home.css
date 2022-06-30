@@ -67,7 +67,6 @@
 .img-home {
   width: auto;
   height: 400px;
-
   border-radius: 2rem;
   margin-right: 50px;
   margin-left: 40px;
@@ -90,6 +89,8 @@
   }
 
   .img-home {
+    width: 200px;
+    height: 200px;
     display: block;
     margin: 0 auto;
   }
