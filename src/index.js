@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Home from './Home';
-import Header from './header/Header';
+import Home from './Components/home/Home';
+import Header from './Components/header/Header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

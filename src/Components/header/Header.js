@@ -1,8 +1,9 @@
-import './css/Header.css'
+import './header.css'
 import Clock from './clock.js'
 import MenuColor from './menuColor.js';
 import Tema from './Tema.js';
 import { useEffect } from 'react';
+import Icon from './assets/img-icon.png';
 
 export default function Header() {
 
@@ -48,6 +49,9 @@ export default function Header() {
 
     return (
         <header id="menu">
+            <div class="main-bar">
+                <img src={Icon} class="bar-icon"></img>
+            </div>
             <a class="menu-toggle rounded" href="/"><i class="fas fa-bars"></i></a>
             <nav id="sidebar-wrapper">
                 <ul class="sidebar-nav">

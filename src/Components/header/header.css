@@ -1,3 +1,12 @@
+.main-bar {
+    width: 100%;
+    height: 75px;
+    opacity: 1;
+    position: fixed;
+    background-color: #343a40;
+    box-shadow: 0 10px 20px 0 rgb(5 16 44 / 15%);
+}
+
 .nav {
     display: flex;
     flex-wrap: wrap;
@@ -736,13 +745,14 @@
     background-clip: text;
     color: transparent;
     opacity: 1;
+    font-size: 18px;
     padding: 15px;
 }
 
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #fff;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .sidebar-nav li a:active,
@@ -874,4 +884,10 @@ input[type=color]::-webkit-color-swatch-wrapper {
     padding: 0.5rem 1rem;
     position: absolute;
     right: 63px;
+}
+
+.bar-icon {
+    margin: 5px 70px;
+    width: 60px;
+    height: 60px;
 }
