@@ -21,6 +21,10 @@
   font-size: 78px;
   font-weight: bold;
   margin-left: -5px;
+  color: transparent;
+}
+
+.texto2 span {
   background:
     linear-gradient(to right,
       var(--color1),
@@ -28,10 +32,6 @@
       var(--color3));
   -webkit-background-clip: text;
   background-clip: text;
-  background-repeat: repeat;
-  background-size: cover;
-  color: transparent;
-
 }
 
 .home a {

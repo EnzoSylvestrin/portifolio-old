@@ -22,7 +22,7 @@ export default function MenuColor() {
 
     return(
         <div class="cores">
-            <h3>Escolha suas cores</h3>
+            <h3><span>Escolha suas cores</span></h3>
             <input type="color" defaultValue="#ff008c" id="clr1" />
             <input type="color" defaultValue="#03f0fc" id="clr2" />
             <input type="color" defaultValue="#1804fb" id="clr3" />

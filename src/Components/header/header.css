@@ -698,9 +698,9 @@
     height: 50px;
     text-align: center;
     color: #fff;
-    background: rgba(52, 58, 64, 0.5);
     line-height: 50px;
     z-index: 999;
+    transition: all 0.6s ease 0s;
 }
 
 .menu-toggle:focus,
@@ -709,7 +709,7 @@
 }
 
 .menu-toggle:hover {
-    background: #343a40;
+    font-size: 22px;
 }
 
 #sidebar-wrapper {
@@ -736,6 +736,12 @@
 .sidebar-nav li.sidebar-nav-item a {
     display: block;
     text-decoration: none;
+    opacity: 1;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.sidebar-nav li.sidebar-nav-item span {
     background:
         linear-gradient(to right,
             var(--color1),
@@ -744,9 +750,6 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    opacity: 1;
-    font-size: 18px;
-    padding: 15px;
 }
 
 .sidebar-nav li a:hover {
@@ -807,6 +810,11 @@
 
 h3 {
     text-align: center;
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+h3 span {
     background:
         linear-gradient(to right,
             var(--color1),
@@ -815,8 +823,6 @@ h3 {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    margin: 10px 0;
-    font-weight: normal;
 }
 
 input[type=color] {
@@ -856,6 +862,10 @@ input[type=color]::-webkit-color-swatch-wrapper {
     padding: 15px;
     text-align: center;
     font-size: 22px;
+    letter-spacing: 0.1rem;
+}
+
+.clock span {
     background:
         linear-gradient(to right,
             var(--color1),
@@ -864,7 +874,6 @@ input[type=color]::-webkit-color-swatch-wrapper {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    letter-spacing: 0.1rem;
 }
 
 .tema {

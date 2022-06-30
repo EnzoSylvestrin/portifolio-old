@@ -30,7 +30,7 @@ export default function Tema() {
 
     return (
         <div class="tema">
-            <a href="#" id="darkMode"><i class="fa fa-sun" id="dark-theme"></i></a>
+            <a href="#" id="darkMode"><i class="fa fa-sun" id="dark-theme" aria-hidden="true"></i></a>
         </div>
     );
 }

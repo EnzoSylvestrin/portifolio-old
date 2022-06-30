@@ -55,12 +55,12 @@ export default function Header() {
             <a class="menu-toggle rounded" href="/"><i class="fas fa-bars"></i></a>
             <nav id="sidebar-wrapper">
                 <ul class="sidebar-nav">
-                    <li class="sidebar-brand"><a href="/">Enzo Sylvestrin</a></li>
-                    <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
-                    <li class="sidebar-nav-item"><a href="#about">Sobre</a></li>
-                    <li class="sidebar-nav-item"><a href="#services">Serviços</a></li>
-                    <li class="sidebar-nav-item"><a href="#certificates">Certificados</a></li>
-                    <li class="sidebar-nav-item"><a href="#projects">Projetos</a></li>
+                    <li class="sidebar-brand"><a href="/"><span>Enzo Sylvestrin</span></a></li>
+                    <li class="sidebar-nav-item"><a href="#page-top"><span>Home</span></a></li>
+                    <li class="sidebar-nav-item"><a href="#about"><span>Sobre</span></a></li>
+                    <li class="sidebar-nav-item"><a href="#services"><span>Serviços</span></a></li>
+                    <li class="sidebar-nav-item"><a href="#certificates"><span>Certificados</span></a></li>
+                    <li class="sidebar-nav-item"><a href="#projects"><span>Projetos</span></a></li>
                 </ul>
                 <MenuColor /> 
                 <Tema />
