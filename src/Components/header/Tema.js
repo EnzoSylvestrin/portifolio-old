@@ -7,6 +7,9 @@ export default function Tema() {
     useEffect(() => {
         if (cont === 0) {
             cont++;
+
+            const menuToggle = document.body.querySelector('.menu-toggle');
+
             var darkMode = document.getElementById('darkMode');
             darkMode.addEventListener('click', event => {
                 event.preventDefault();
@@ -15,6 +18,7 @@ export default function Tema() {
                     document.body.style.setProperty('--bgColor', "#fff");
                     document.body.style.setProperty('--textColor', "#000");
                     document.body.style.setProperty('--bgColor-light', "#ebedf3");
+                    menuToggle.classList.add('light');
                     darkTheme.classList.remove('fa-sun');
                     darkTheme.classList.add('fa-moon');
                 }
@@ -22,6 +26,7 @@ export default function Tema() {
                     document.body.style.setProperty('--bgColor', "#000");
                     document.body.style.setProperty('--textColor', "#fff");
                     document.body.style.setProperty('--bgColor-light', "#131111");
+                    menuToggle.classList.remove('light');
                     darkTheme.classList.remove('fa-moon');
                     darkTheme.classList.add('fa-sun');
                 }

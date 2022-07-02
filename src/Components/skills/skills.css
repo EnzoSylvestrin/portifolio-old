@@ -1,0 +1,45 @@
+#skills {
+    padding: 2rem 20px;
+}
+
+.container-skills {
+    overflow-y: hidden;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: 1%;
+}
+
+.single-item {
+    overflow-y: hidden;
+    background-color: var(--bgColor-light);
+    transform: Uppercase;
+    text-align: center;
+    border: 3px solid var(--bgColor-light);
+    border-radius: 30px;
+    transition: all 0.4s ease;
+}
+
+.single-item:hover {
+    border: 3px solid #43d8d8;
+}
+
+#icon-language {
+    font-size: 80px;
+    display: block;
+    margin: 10px auto;
+    padding: 0.5rem 1rem;
+}
+
+.mg-1 {
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .container-skills {
+        grid-template-columns: 49% 49%;
+    }
+
+    .mg-1 {
+        margin: 0px !important;
+    }
+}

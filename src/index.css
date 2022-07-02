@@ -40,7 +40,12 @@ body {
   background: #555;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.page-section {
+  width: 100%;
+  background-color: var(--bgColor);
+}
+
+.page-light {
+  width: 100%;
+  background-color: var(--bgColor);
 }

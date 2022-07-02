@@ -4,11 +4,11 @@ import './about.css';
 
 export default function About() {
     return (
-        <section class="page-section page-light" id="about">
+        <section class="page-light" id="about">
             <h2 class="title-page">Sobre mim</h2>
             <div class="about-section">
                 <div class="left-img">
-                    <img src={icon} class="img-about" alt=""></img>
+                    <img src={icon} class="img-about" alt="icon"></img>
                 </div>
                 <div class="right-text">
                     <div class="texto-about">
