@@ -19,12 +19,16 @@ export default function Projects() {
             <div class="container-projects">
                 <Slider {...settings}>
                     <div class="item-projects img-1">
-                        <a href="https://i.ytimg.com/an_webp/FApfmscYKaY/mqdefault_6s.webp?du=3000&sqp=CLr3gpYG&rs=AOn4CLDM1S8drOPBJnrHvB0AWLppO8M6eQ" target="_blank" rel="noopener noreferrer"><h3>MoveStats</h3>
-                        <p>Projeto finalista na febrace 2022 desenvolvido para facilitar na locomoção de deficientes visuais</p></a>
+                        <a href="https://www.youtube.com/watch?v=FApfmscYKaY" target="_blank" rel="noopener noreferrer">
+                            <h3>MoveStats</h3>
+                            <p>Projeto finalista na febrace 2022 desenvolvido para facilitar na locomoção de deficientes visuais.</p>
+                        </a>
                     </div>
                     <div class="item-projects img-2">
-                        <a href="https://github.com/EnzoSylvestrin" target="_blank" rel="noopener noreferrer"><h3>Github</h3>
-                        <p>Para acessar todos meus projetos acesse meu github</p></a>
+                        <a href="https://github.com/EnzoSylvestrin" target="_blank" rel="noopener noreferrer">
+                            <h3>Github</h3>
+                            <p>Para acessar todos meus projetos acesse meu github.</p>
+                        </a>
                     </div>
                 </Slider>
             </div>

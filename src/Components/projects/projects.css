@@ -21,13 +21,13 @@
 }
 
 .img-1 {
-    background-image: url(./assets/cego3.png);
+    background-image: url(./assets/deficientevisual.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .img-2 {
-    background-image: url(./assets/git2.png);
+    background-image: url(./assets/git.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -45,7 +45,7 @@
 .item-projects p {
     width: 30%;
     font-size: 22px;
-    color: var(--textColor);
+    color: #fff;
     position: relative;
     top: 50%;
     text-align: left;

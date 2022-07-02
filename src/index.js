@@ -8,6 +8,7 @@ import Skills from './Components/skills/skills';
 import Services from './Components/services/services';
 import Certificates from './Components/ceritificates/certificates';
 import Projects from './Components/projects/projects';
+import Contact from './Components/contact/contact';
 import Footer from './Components/footer/footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,6 +21,7 @@ root.render(
     <Services />
     <Certificates />
     <Projects />
+    <Contact />
     <Footer />
   </React.StrictMode>
 );
