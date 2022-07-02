@@ -45,6 +45,7 @@
 @media (max-width: 768px) {
     .container-skills {
         grid-template-columns: 49% 49%;
+        padding: 2rem 20px;
     }
 
     .mg-1 {
@@ -54,7 +55,8 @@
 
 @media (max-width: 300px) {
     .container-skills {
-        grid-template-columns: 99%;
+        grid-template-columns: 100%;
+        gap: 1%;
     }
 
     #icon-language {
