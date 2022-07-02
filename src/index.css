@@ -5,6 +5,7 @@
   --bgColor: #000;
   --bgColor-light: #131111;
   --textColor: #fff;
+  --hoverBackground: rgba(255, 255, 255, 0.1);
 }
 
 * {
@@ -14,6 +15,11 @@
   text-decoration: none;
   overflow-x: hidden;
   scroll-behavior: smooth;
+
+}
+
+html {
+  scroll-padding-top: 75px;
 }
 
 body {
@@ -43,9 +49,11 @@ body {
 .page-section {
   width: 100%;
   background-color: var(--bgColor);
+  padding: 2rem 20px;
 }
 
 .page-light {
   width: 100%;
-  background-color: var(--bgColor);
+  background-color: var(--bgColor-light);
+  padding: 2rem 20px;
 }

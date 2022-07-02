@@ -4,9 +4,6 @@
 }
 
 #about {
-    padding: 2rem 20px;
-    width: 100%;
-    background: var(--bgColor-light);
     align-items: center;
     position: relative;
     z-index: 1;

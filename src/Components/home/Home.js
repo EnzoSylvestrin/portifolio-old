@@ -15,7 +15,7 @@ export default function Home() {
   });
 
   return (
-    <section id="home" class="page-section">
+    <section id="home">
       <div class="home">
         <div class="blob">
           <Blob />

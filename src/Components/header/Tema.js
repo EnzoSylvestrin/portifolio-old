@@ -18,6 +18,7 @@ export default function Tema() {
                     document.body.style.setProperty('--bgColor', "#fff");
                     document.body.style.setProperty('--textColor', "#000");
                     document.body.style.setProperty('--bgColor-light', "#ebedf3");
+                    document.body.style.setProperty('--hoverBackground', "rgba(10, 10, 10, 0.1)");
                     menuToggle.classList.add('light');
                     darkTheme.classList.remove('fa-sun');
                     darkTheme.classList.add('fa-moon');
@@ -26,6 +27,7 @@ export default function Tema() {
                     document.body.style.setProperty('--bgColor', "#000");
                     document.body.style.setProperty('--textColor', "#fff");
                     document.body.style.setProperty('--bgColor-light', "#131111");
+                    document.body.style.setProperty('--hoverBackground', "rgba(255, 255, 255, 0.1)");
                     menuToggle.classList.remove('light');
                     darkTheme.classList.remove('fa-moon');
                     darkTheme.classList.add('fa-sun');

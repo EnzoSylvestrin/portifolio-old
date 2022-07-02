@@ -3,7 +3,7 @@ import './skills.css'
 export default function Skills() {
     return (
         <section class="page-section" id="skills">
-            <h2 class="title-page">Minhas skills</h2>
+            <h2 class="title-page"><span>Minhas skills</span></h2>
             <div class="container-skills">
                 <div class="single-item">
                     <i class="devicon-react-original-wordmark colored" id="icon-language"></i>

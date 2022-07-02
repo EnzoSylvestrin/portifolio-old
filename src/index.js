@@ -4,7 +4,8 @@ import './index.css';
 import Home from './Components/home/Home';
 import Header from './Components/header/Header';
 import About from './Components/about/about';
-import Skills from './Components/skills/skills'
+import Skills from './Components/skills/skills';
+import Services from './Components/services/services';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,5 +14,6 @@ root.render(
     <Home />
     <About />
     <Skills />
+    <Services />
   </React.StrictMode>
 );

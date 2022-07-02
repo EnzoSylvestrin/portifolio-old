@@ -1,8 +1,16 @@
-#skills {
-    padding: 2rem 20px;
+.title-page span {
+    background:
+        linear-gradient(to right,
+            var(--color1),
+            var(--color2),
+            var(--color3));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .container-skills {
+    padding: 2rem 80px;
     overflow-y: hidden;
     display: grid;
     grid-template-columns: 24% 24% 24% 24%;
@@ -10,6 +18,7 @@
 }
 
 .single-item {
+    padding: 10px;
     overflow-y: hidden;
     background-color: var(--bgColor-light);
     text-align: center;
