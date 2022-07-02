@@ -12,7 +12,6 @@
 .single-item {
     overflow-y: hidden;
     background-color: var(--bgColor-light);
-    transform: Uppercase;
     text-align: center;
     border: 3px solid var(--bgColor-light);
     border-radius: 30px;
@@ -41,5 +40,15 @@
 
     .mg-1 {
         margin: 0px !important;
+    }
+}
+
+@media (max-width: 300px) {
+    .container-skills {
+        grid-template-columns: 99%;
+    }
+
+    #icon-language {
+        font-size: 60px !important;
     }
 }

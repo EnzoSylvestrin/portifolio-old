@@ -53,8 +53,8 @@
 }
 
 .img-about {
-    width: 350px !important;
-    height: 350px !important;
+    width: 350px;
+    height: 350px;
     border: 1px solid #000;
     background:
         linear-gradient(to right,
@@ -104,8 +104,11 @@
         position: static;
         text-align: center;
     }
+}
 
-    .left-img {
-        width: 100%;
+@media (max-width: 400px) {
+    .img-about {
+        width: auto !important;
+        height: auto !important;
     }
 }
