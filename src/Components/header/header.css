@@ -1,10 +1,23 @@
-.main-bar {
+#main-bar {
     width: 100%;
     height: 75px;
     opacity: 1;
     position: fixed;
+    background: transparent;
+    z-index: 2;
+}
+
+#main-bar.shrink {
     background-color: #343a40;
     box-shadow: 0 10px 20px 0 rgb(5 16 44 / 15%);
+}
+
+.container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .nav {
@@ -696,7 +709,7 @@
     color: #fff;
     line-height: 50px;
     z-index: 999;
-    transition: all 0.6s ease 0s;
+    transition: all 1s ease 0s;
 }
 
 .menu-toggle:focus,
@@ -706,6 +719,7 @@
 
 .menu-toggle:hover {
     font-size: 22px;
+    transform: rotate(360deg);
 }
 
 #sidebar-wrapper {
@@ -717,7 +731,6 @@
     transition: all 0.4s ease 0s;
     transform: translateX(250px);
     background: #191818;
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .sidebar-nav {
@@ -746,6 +759,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    font-weight: bold;
 }
 
 .sidebar-nav li a:hover {
@@ -782,10 +796,20 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    font-weight: bold;
 }
 
 .sidebar-nav>.sidebar-brand a:hover {
     background: none;
+}
+
+.ms-auto {
+    margin-left: auto !important;
+}
+
+.py-4 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
 }
 
 #sidebar-wrapper.active {
@@ -809,7 +833,7 @@
 h3 {
     text-align: center;
     margin: 10px 0;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 h3 span {
@@ -871,6 +895,7 @@ input[type=color]::-webkit-color-swatch-wrapper {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    font-weight: bold;
 }
 
 .tema {
@@ -888,10 +913,11 @@ input[type=color]::-webkit-color-swatch-wrapper {
     display: block;
     margin: 0 auto;
     padding: 0.5rem 1rem;
+    color: white;
 }
 
 .bar-icon {
-    margin: 5px 70px;
+    margin: 5px 100px;
     width: 60px;
     height: 60px;
 }

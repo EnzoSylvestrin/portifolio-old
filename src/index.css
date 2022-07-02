@@ -3,8 +3,8 @@
   --color2: #03f0fc;
   --color3: #1804fb;
   --bgColor: #000;
+  --bgColor-light: rgb(19, 17, 17);
   --textColor: #fff;
-  --iconColor: #fff;
 }
 
 * {
@@ -12,17 +12,16 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
-  overflow-x: hidden;
-  margin: 0;
   font-family: 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {

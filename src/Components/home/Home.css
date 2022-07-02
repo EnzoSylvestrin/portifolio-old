@@ -3,6 +3,9 @@
   height: 100vh;
   display: flex;
   align-items: center;
+  position: relative;
+  z-index: 1;
+  overflow-y: hidden;
 }
 
 .max-width {
@@ -11,20 +14,21 @@
 }
 
 .texto1 {
-  margin-top: -40px;
-  font-size: 20px;
+  margin-top: 0px;
+  font-size: 25px;
   color: var(--textColor);
   letter-spacing: 0.05rem;
 }
 
 .texto2 {
-  font-size: 78px;
+  font-size: 85px;
   font-weight: bold;
   margin-left: -5px;
   color: transparent;
 }
 
 .texto2 span {
+  padding: 0;
   background:
     linear-gradient(to right,
       var(--color1),
@@ -34,7 +38,7 @@
   background-clip: text;
 }
 
-.home a {
+.btn-primary {
   display: inline-block;
   background: rgb(1, 196, 202);
   color: #fff;
@@ -47,15 +51,14 @@
   transition: all 0.3s ease;
 }
 
-.home a:hover {
-  color: rgb(71, 232, 238);
-  background: rgba(1, 196, 202, 0.6);
-  border: #00FFFF solid 1px;
+.btn-primary:hover {
+  color: rgb(68, 163, 167);
+  background: rgba(1, 196, 202, 0.4);
 }
 
 .texto3 {
-  margin-left: -15px;
-  font-size: 28px;
+  margin-left: -20px;
+  font-size: 36px;
   font-weight: bold;
   color: rgb(238, 71, 196);
 }
@@ -72,9 +75,55 @@
   margin-left: 40px;
 }
 
+.blob {
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: rgb(53, 49, 49);
+  width: 50vmax;
+  z-index: -1;
+  animation: move 10s ease-in-out infinite;
+  transform-origin: 50% 50%;
+}
+
+.blob:hover {
+  fill: url(#header-shape-gradient);
+}
+
+@keyframes move {
+  0% {
+    transform: scale(1) translate(10px, -30px);
+  }
+
+  38% {
+    transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg);
+  }
+
+  40% {
+    transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg);
+  }
+
+  78% {
+    transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg);
+  }
+
+  80% {
+    transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg);
+  }
+
+  100% {
+    transform: scale(1) translate(10px, -30px);
+  }
+}
+
 @media (max-width: 768px) {
   .texto1 {
+    font-size: 20px;
     margin-top: 0;
+  }
+
+  .texto2 {
+    font-size: 68px;
   }
 
   .home {
@@ -82,10 +131,15 @@
   }
 
   .max-width {
-    padding-top: 10.5rem;
+    padding-top: 8rem;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 30px;
+  }
+
+  .home a {
+    font-size: 20px;
+    padding: 12px 28px;
   }
 
   .img-home {
@@ -93,5 +147,6 @@
     height: 200px;
     display: block;
     margin: 0 auto;
+    margin-bottom: 60px;
   }
 }

@@ -5,7 +5,7 @@ export default function Tema() {
     var cont = 0;
 
     useEffect(() => {
-        if (cont == 0) {
+        if (cont === 0) {
             cont++;
             var darkMode = document.getElementById('darkMode');
             darkMode.addEventListener('click', event => {

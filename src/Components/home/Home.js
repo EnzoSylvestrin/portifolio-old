@@ -2,6 +2,8 @@ import './Home.css';
 import {useTypewriter} from 'react-simple-typewriter'
 import Curriculo from './assets/Enzo.pdf';
 import img from './assets/programador.webp';
+import Blob from './blob.js'
+
 
 export default function Home() {
 
@@ -16,16 +18,19 @@ export default function Home() {
   return (
     <section id="home" class="page-section">
       <div class="home">
+        <div class="blob">
+          <Blob />
+        </div>
         <div class="max-width">
           <div class="texto1">Bem vindo, meu nome é:</div>
           <div class="texto2"><span>Enzo</span></div>
           <div class="texto3">
           &nbsp;{text}
           </div>
-          <a href={Curriculo} target="_blank" class="btn btn-primary">Currículo</a>
+          <a href={Curriculo} target="_blank" rel="noopener noreferrer" class="btn btn-primary">Currículo</a>
         </div>
         <div class="right-img">
-          <img src={img} class="img-home"></img>
+          <img src={img} alt="imagem programdor" class="img-home"></img>
         </div>
       </div>
     </section>

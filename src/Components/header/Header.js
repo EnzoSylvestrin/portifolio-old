@@ -23,8 +23,26 @@ export default function Header() {
     }
    
     useEffect(() => {
-        if (cont == 0) {
+        if (cont === 0) {
             cont++;
+
+            var navbarShrink = function () {
+                const navbarCollapsible = document.body.querySelector('#main-bar');
+                if (!navbarCollapsible) {
+                    return;
+                }
+                if (window.scrollY === 0) {
+                    navbarCollapsible.classList.remove('shrink')
+                } else {
+                    navbarCollapsible.classList.add('shrink')
+                }
+        
+            };
+        
+            // Shrink the navbar 
+            navbarShrink();
+
+            document.addEventListener('scroll', navbarShrink);
             
             const sidebarWrapper = document.getElementById('sidebar-wrapper');
             const menuToggle = document.body.querySelector('.menu-toggle');
@@ -49,8 +67,8 @@ export default function Header() {
 
     return (
         <header id="menu">
-            <div class="main-bar">
-                <img src={Icon} class="bar-icon"></img>
+            <div class="main-bar" id="main-bar">
+                <a href="#menu"><img src={Icon} class="bar-icon"></img></a>
             </div>
             <a class="menu-toggle rounded" href="/"><i class="fas fa-bars"></i></a>
             <nav id="sidebar-wrapper">
