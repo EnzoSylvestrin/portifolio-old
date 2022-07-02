@@ -6,6 +6,7 @@ import Header from './Components/header/Header';
 import About from './Components/about/about';
 import Skills from './Components/skills/skills';
 import Services from './Components/services/services';
+import Footer from './Components/footer/footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,5 +16,6 @@ root.render(
     <About />
     <Skills />
     <Services />
+    <Footer />
   </React.StrictMode>
 );
