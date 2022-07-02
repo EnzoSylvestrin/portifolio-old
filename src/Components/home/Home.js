@@ -1,6 +1,5 @@
 import './Home.css';
 import {useTypewriter} from 'react-simple-typewriter'
-import Curriculo from './assets/Enzo.pdf';
 import img from './assets/programador.webp';
 import Blob from './blob.js'
 
@@ -27,7 +26,7 @@ export default function Home() {
           <div class="texto3">
           &nbsp;{text}
           </div>
-          <a href={Curriculo} target="_blank" rel="noopener noreferrer" class="btn btn-primary">Currículo</a>
+          <a href="https://www.linkedin.com/in/enzo-sylvestrin-336b71221" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Encontre-me</a>
         </div>
         <div class="right-img">
           <img src={img} alt="imagem programdor" class="img-home"></img>

@@ -66,9 +66,9 @@ export default function Header() {
     }, []);
 
     return (
-        <header id="menu">
+        <header id="page-top">
             <div class="main-bar" id="main-bar">
-                <a href="#menu"><img src={Icon} class="bar-icon"></img></a>
+                <a href="#menu"><img src={Icon} class="bar-icon" alt="Icon"></img></a>
             </div>
             <a class="menu-toggle rounded" href="/"><i class="fas fa-bars"></i></a>
             <nav id="sidebar-wrapper">

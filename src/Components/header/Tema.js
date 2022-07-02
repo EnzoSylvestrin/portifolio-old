@@ -14,12 +14,14 @@ export default function Tema() {
                 if (darkTheme.classList.contains('fa-sun')) {
                     document.body.style.setProperty('--bgColor', "#fff");
                     document.body.style.setProperty('--textColor', "#000");
+                    document.body.style.setProperty('--bgColor-light', "#ebedf3");
                     darkTheme.classList.remove('fa-sun');
                     darkTheme.classList.add('fa-moon');
                 }
                 else {
                     document.body.style.setProperty('--bgColor', "#000");
                     document.body.style.setProperty('--textColor', "#fff");
+                    document.body.style.setProperty('--bgColor-light', "#131111");
                     darkTheme.classList.remove('fa-moon');
                     darkTheme.classList.add('fa-sun');
                 }

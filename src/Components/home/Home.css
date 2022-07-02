@@ -116,6 +116,13 @@
   }
 }
 
+@media (max-width: 920px) {
+  .img-home {
+    width: 95%;
+    margin-left: 0px;
+  }
+}
+
 @media (max-width: 768px) {
   .texto1 {
     font-size: 20px;
@@ -143,10 +150,11 @@
   }
 
   .img-home {
-    width: 200px;
+    /* width: 200px;
     height: 200px;
     display: block;
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-bottom: 60px; */
+    display: none;
   }
 }

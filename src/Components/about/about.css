@@ -17,7 +17,7 @@
     text-align: center;
     margin-bottom: 20px;
     padding: 10px;
-    color: #fff;
+    color: var(--textColor);
 }
 
 .texto-about {
@@ -29,14 +29,14 @@
 
 .texto-about h3 {
     font-size: 30px;
-    color: #fff;
+    color: var(--textColor);
     text-align: left;
     margin-bottom: 20px;
 }
 
 .texto-about p {
     font-size: 20px;
-    color: #fff;
+    color: var(--textColor);
     text-align: left;
 }
 
