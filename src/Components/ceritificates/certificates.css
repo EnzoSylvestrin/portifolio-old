@@ -41,6 +41,17 @@
     color: var(--textColor);
 }
 
+.item span:hover {
+    background:
+        linear-gradient(to right,
+            var(--color1),
+            var(--color2),
+            var(--color3));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
 @media (max-width: 768px) {
     .container-owl-certificates {
         padding: 20px 20px;

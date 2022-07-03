@@ -1,3 +1,188 @@
 .container-contact {
-    padding: 2rem 80px;
+    padding: 2rem 40px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.ways-contact {
+    width: 70%;
+}
+
+.list-icons {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-icons li {
+    display: flex;
+    width: 100%;
+    margin: 10px 3px;
+}
+
+.ways-contact h3 {
+    margin-top: 80px;
+    text-align: left;
+    font-size: 26px;
+}
+
+.ways-contact p {
+    text-align: left;
+    font-size: 20px;
+    color: var(--textColor);
+}
+
+.ways-contact span {
+    background:
+        linear-gradient(to right,
+            var(--color1),
+            var(--color2),
+            var(--color3));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.ways-contact li p {
+    margin: 0px 10px;
+}
+
+#icon-contact {
+    font-size: 30px;
+    color: #fd0909;
+}
+
+.mg-icon-2 {
+    margin-left: 16px !important;
+}
+
+.form-contact {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.form-contact label {
+    width: 100%;
+    font-size: 20px;
+    color: var(--textColor);
+    margin: 0 80px;
+    text-align: left;
+    padding: 3px;
+}
+
+.btn-form {
+    width: 100%;
+}
+
+.form-contact>.btn-primary {
+    padding: 12px 22px;
+}
+
+.form-control {
+    padding: 10px;
+    width: 100%;
+    margin: 10px 80px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+::placeholder {
+    color: #000;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #000;
+}
+
+::-webkit-input-placeholder {
+    color: #000;
+}
+
+@media (max-width: 1050px) {
+    .form-control {
+        margin: 10px 60px;
+    }
+
+    .form-contact label {
+        margin: 10px 60px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .ways-contact h3 {
+        margin-top: 0px;
+    }
+
+    .form-control {
+        margin: 10px 30px;
+    }
+
+    .form-contact label {
+        margin: 10px 30px;
+        text-align: center;
+    }
+
+    .list-icons {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .list-icons li {
+        width: auto;
+        margin: 20px auto;
+    }
+
+    .ways-contact h3,
+    .ways-contact p {
+        text-align: center;
+    }
+
+    .container-contact {
+        flex-wrap: wrap;
+        padding: 2rem 20px;
+    }
+
+    .ways-contact {
+        width: 100%;
+    }
+}
+
+@media (max-width: 560px) {
+
+    .mg-icon-2 {
+        margin-left: 10px !important;
+    }
+
+    .container-contact {
+        flex-wrap: wrap;
+        padding: 2rem 0px;
+    }
+
+    .form-control {
+        margin: 10px 0px;
+    }
+
+    .form-contact label {
+        margin: 10px 0px;
+    }
+}
+
+@media (max-width: 400px) {
+    .ways-contact li p {
+        font-size: 16px !important;
+    }
+
+    textarea {
+        resize: vertical;
+    }
 }

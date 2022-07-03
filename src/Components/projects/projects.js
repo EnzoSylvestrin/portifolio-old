@@ -14,7 +14,7 @@ export default function Projects() {
     };
 
     return (
-        <section class="page-light" id="project">
+        <section class="page-light" id="projects">
             <h3 class="title-page">Projetos</h3>
             <div class="container-projects">
                 <Slider {...settings}>

@@ -19,7 +19,8 @@ footer {
 
 #icon-linkedin,
 #icon-github,
-#icon-twitter {
+#icon-twitter,
+#icon-whatsapp {
     color: #fff;
     font-size: 35px;
     padding: 10px;
@@ -36,6 +37,10 @@ footer {
 
 #icon-twitter:hover {
     color: rgb(20, 173, 233);
+}
+
+#icon-whatsapp:hover {
+    color: rgb(11, 204, 21);
 }
 
 .copyright {

@@ -33,13 +33,13 @@ export default function Certificates() {
                     <div class="img-item">
                         <img src={node} alt="Certificado Node.js"></img>
                     </div>
-                    <h3>Certificado Node.js</h3>
+                    <h3><span>Certificado Node.js</span></h3>
                 </div>
                 <div class="item">
                     <div class="img-item">
                         <img src={febrace} alt="Certificado Febrace 2022"></img>
                     </div>
-                    <h3>Certificado Febrace 2022</h3>
+                    <h3><span>Certificado Febrace 2022</span></h3>
                 </div>
             </Slider>
             </div>
