@@ -19,7 +19,10 @@ export default function Contact() {
                         </li>
                     </ul>
                 </div>
-                <form action="https://formsubmit.co/enzospavani@gmail.com" method="POST" class="form-contact">
+                <form action="https://formsubmit.co/fecfce57d3e403900dad1688f2d9c317" method="POST" class="form-contact">
+                    <input type="hidden" name="_next" value="https://enzosylvestrin.github.io/portifolio/" />
+                    <input type="hidden" name="_template" value="box" />
+                    <input type="hidden" name="_autoresponse" value="Recebi sua mensagem, muito obrigado por entrar em contato! Responderei o mais rápido possível..." />            
                     <label>Nome:</label>
                     <input type="text" name="name" class="form-control" placeholder="Nome"/>
                     <label>Email:</label>
