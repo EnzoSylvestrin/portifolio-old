@@ -19,15 +19,15 @@ export default function Contact() {
                         </li>
                     </ul>
                 </div>
-                <form class="form-contact">
+                <form action="https://formsubmit.co/enzospavani@gmail.com" method="POST" class="form-contact">
                     <label>Nome:</label>
                     <input type="text" name="name" class="form-control" placeholder="Nome"/>
                     <label>Email:</label>
-                    <input type="text" name="email" class="form-control" placeholder="Email"/>
+                    <input type="email" name="email" class="form-control" placeholder="Email"/>
                     <label>Mensagem:</label>
-                    <textarea class="form-control" placeholder="Escreva a mensagem"></textarea>
+                    <textarea name="message" class="form-control" placeholder="Escreva a mensagem" ></textarea>
                     <div class="btn-form">
-                        <a href="#" class="btn btn-primary">Enviar</a>
+                        <input type="submit" class="btn btn-primary" value="Enviar" />
                     </div>
                 </form>
             </div>
