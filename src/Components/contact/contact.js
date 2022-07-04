@@ -24,11 +24,11 @@ export default function Contact() {
                     <input type="hidden" name="_template" value="box" />
                     <input type="hidden" name="_autoresponse" value="Recebi sua mensagem, muito obrigado por entrar em contato! Responderei o mais rápido possível..." />            
                     <label>Nome:</label>
-                    <input type="text" name="name" class="form-control" placeholder="Nome"/>
+                    <input type="text" name="name" class="form-control" placeholder="Nome" required/>
                     <label>Email:</label>
-                    <input type="email" name="email" class="form-control" placeholder="Email"/>
+                    <input type="email" name="email" class="form-control" placeholder="Email" required/>
                     <label>Mensagem:</label>
-                    <textarea name="message" class="form-control" placeholder="Escreva a mensagem" ></textarea>
+                    <textarea name="message" class="form-control" placeholder="Escreva a mensagem" required></textarea>
                     <div class="btn-form">
                         <input type="submit" class="btn btn-primary" value="Enviar" />
                     </div>
