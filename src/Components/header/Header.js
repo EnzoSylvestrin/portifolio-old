@@ -35,12 +35,8 @@ export default function Header() {
                     return;
                 }
                 if (window.scrollY === 0) {
-                    if (document.body.style.getPropertyValue('--bgColor') == "#fff") {
-                        menuToggle.classList.add('light');
-                    }
                     navbarCollapsible.classList.remove('shrink');
                 } else {
-                    menuToggle.classList.remove('light');
                     navbarCollapsible.classList.add('shrink');
                 }
             };
@@ -74,7 +70,7 @@ export default function Header() {
             <div class="main-bar" id="main-bar">
                 <a href="#page-top"><img src={Icon} class="bar-icon" alt="Icon"></img></a>
             </div>
-            <a class="menu-toggle rounded" href="/"><i class="fas fa-bars"></i></a>
+            <a class="menu-toggle rounded" href="/"><i class="fas fa-bars" id="bars"></i></a>
             <nav id="sidebar-wrapper">
                 <ul class="sidebar-nav">
                     <li class="sidebar-nav-item"><a href="#page-top"><span>Home</span></a></li>

@@ -165,9 +165,10 @@
     transition: all 1s ease 0s;
 }
 
-.menu-toggle.light {
+/* .menu-toggle.light {
+    border-radius: 50%;
     background: rgba(52, 58, 64, 0.5);
-}
+} */
 
 .menu-toggle:focus,
 .menu-toggle:hover {
@@ -189,6 +190,11 @@
     transition: all 0.4s ease 0s;
     transform: translateX(250px);
     background: var(--bgColor-light);
+}
+
+#bars {
+    color: #FF00FF;
+    opacity: 1;
 }
 
 .sidebar-nav {
