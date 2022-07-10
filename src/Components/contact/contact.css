@@ -82,27 +82,37 @@
 }
 
 .form-control {
+    background-color: rgb(33, 33, 33);
     padding: 10px;
     width: 100%;
     margin: 10px 80px;
+    border: 1px solid transparent;
+    color: white;
 }
 
 textarea {
+    background-color: rgb(33, 33, 33);
     height: 100px;
     resize: none;
 }
 
+.form-control:hover,
+.form-control:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+
 ::placeholder {
-    color: #000;
+    color: #ccc;
     opacity: 1;
 }
 
 :-ms-input-placeholder {
-    color: #000;
+    color: #ccc;
 }
 
 ::-webkit-input-placeholder {
-    color: #000;
+    color: #ccc;
 }
 
 @media (max-width: 1050px) {
