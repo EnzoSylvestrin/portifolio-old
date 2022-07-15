@@ -20,6 +20,14 @@
     margin: 10px 3px;
 }
 
+.list-icons a {
+    transition: all 0.6s ease;
+}
+
+.list-icons a:hover {
+    transform: scale(1.02);
+}
+
 .ways-contact h3 {
     margin-top: 80px;
     text-align: left;

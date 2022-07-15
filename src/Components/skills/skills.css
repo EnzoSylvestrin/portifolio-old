@@ -36,6 +36,11 @@
     display: block;
     margin: 10px auto;
     padding: 0.5rem 1rem;
+    transition: all 0.8s ease;
+}
+
+#icon-language:hover {
+    transform: scale(1.1);
 }
 
 .mg-1 {
@@ -53,7 +58,7 @@
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 350px) {
     .container-skills {
         grid-template-columns: 100%;
         gap: 1%;

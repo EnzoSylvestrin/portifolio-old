@@ -34,11 +34,13 @@
 
 .item-services:hover #icon-services {
     color: rgb(0, 119, 255);
+
 }
 
 .item-services:hover {
     border: 2px solid rgb(0, 119, 255);
     background-color: rgba(25, 0, 255, 0.2);
+    transform: scale(1.035);
 }
 
 @media (max-width: 768px) {
