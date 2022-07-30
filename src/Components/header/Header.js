@@ -67,19 +67,19 @@ export default function Header() {
 
     return (
         <header id="page-top">
-            <div class="main-bar" id="main-bar">
-                <a href="#page-top"><img src={Icon} class="bar-icon" alt="Icon"></img></a>
+            <div className="main-bar" id="main-bar">
+                <a href="#page-top"><img src={Icon} className="bar-icon" alt="Icon"></img></a>
             </div>
-            <a class="menu-toggle rounded" href="/"><i class="fas fa-bars" id="bars"></i></a>
+            <a className="menu-toggle rounded" href="/"><i className="fas fa-bars" id="bars"></i></a>
             <nav id="sidebar-wrapper">
-                <ul class="sidebar-nav">
-                    <li class="sidebar-nav-item"><a href="#page-top"><span>Home</span></a></li>
-                    <li class="sidebar-nav-item"><a href="#about"><span>Sobre</span></a></li>
-                    <li class="sidebar-nav-item"><a href="#skills"><span>Skills</span></a></li>
-                    <li class="sidebar-nav-item"><a href="#services"><span>Serviços</span></a></li>
-                    <li class="sidebar-nav-item"><a href="#certificates"><span>Certificados</span></a></li>
-                    <li class="sidebar-nav-item"><a href="#projects"><span>Projetos</span></a></li>
-                    <li class="sidebar-nav-item"><a href="#contact"><span>Contato</span></a></li>
+                <ul className="sidebar-nav">
+                    <li className="sidebar-nav-item"><a href="#page-top"><span>Home</span></a></li>
+                    <li className="sidebar-nav-item"><a href="#about"><span>Sobre</span></a></li>
+                    <li className="sidebar-nav-item"><a href="#skills"><span>Skills</span></a></li>
+                    <li className="sidebar-nav-item"><a href="#services"><span>Serviços</span></a></li>
+                    <li className="sidebar-nav-item"><a href="#certificates"><span>Certificados</span></a></li>
+                    <li className="sidebar-nav-item"><a href="#projects"><span>Projetos</span></a></li>
+                    <li className="sidebar-nav-item"><a href="#contact"><span>Contato</span></a></li>
                 </ul>
                 <MenuColor /> 
                 <Tema />

@@ -6,6 +6,7 @@
   --bgColor-light: #131111;
   --textColor: #fff;
   --hoverBackground: rgba(255, 255, 255, 0.1);
+  --skillColor: #fff;
 }
 
 * {
@@ -33,19 +34,20 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 7px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: var(--bgColor);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: rgb(207, 200, 200);
+  border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: rgb(122, 119, 119);
 }
 
 .page-section {
