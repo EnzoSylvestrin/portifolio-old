@@ -65,7 +65,7 @@
 }
 
 .img-about:hover {
-    border: 10px solid aquamarine;
+    border: 5px solid aquamarine;
 }
 
 @media (max-width: 860px) {

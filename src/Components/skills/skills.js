@@ -50,7 +50,7 @@ export default function Skills() {
                 <div class="description-skills">
                     <h2 class="title-description">Skill</h2>
                     <progress max="200" value="0"></progress>
-                    <p class="description">Passe o mouse/aperte em cima de alguma skill para o tempo de experiência</p>
+                    <p class="description">Passe o mouse/aperte em cima de alguma skill para ver o tempo de experiência</p>
                 </div>
                 <div class="container-skills">
                     <div class="single-item">
