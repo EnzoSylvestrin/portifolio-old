@@ -2,7 +2,7 @@
   💻<br /><a href="https://enzosylvestrin.github.io/portifolio/">Portfólio - Enzo Sylvestrin</a>
 </h1>
 
-![Resultado final do projeto](preview.png)
+![Resultado final do projeto](img-preview.png)
 
 <h4 align="center"><a href="https://enzosylvestrin.github.io/portifolio/">Clique para visitar o projeto</a></h4>
 
