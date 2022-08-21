@@ -18,7 +18,7 @@ O site é composto por cinco seções:
 - **Projetos:** Apresenta alguns projetos desenvolvidos e com link direto para os respectivos códigos no GitHub;
 - **Contato:** Formas de entrar em contato comigo, incluindo um formulário para me enviar um email;
 
-## 🙃 Funcionalidades extras:
+## 🙃 Funcionalidades extras
 
 - No menu o usuário consegue alterar o tema clicando no ícone da lua ou do sol;
 - Ainda no menu é possível alterar a cor do degradê do site, clicando sobre as cores.
