@@ -8,7 +8,7 @@
 
 ## 📚 Seções
 
-O site é composto por cinco seções:
+O site é composto por sete seções:
 
 - **Home:** Apresentação inicial;
 - **Sobre:** Descrição dizendo um pouco sobre quem eu sou;
