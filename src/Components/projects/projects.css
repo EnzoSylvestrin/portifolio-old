@@ -15,23 +15,35 @@
     bottom: 2px;
 }
 
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
 .item-projects {
     width: 100%;
     height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .img-1 {
     background-image: url(./assets/deficientevisual.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .img-2 {
-    background-image: url(./assets/git.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
+    background-image: url(./assets/Akame-wiki.png);
 }
+
+.img-3 {
+    background-image: url(./assets/git.png);
+}
+
 
 .item-projects h3 {
     font-size: 30px;
@@ -40,6 +52,7 @@
     top: 45%;
     text-align: left;
     left: 4%;
+    z-index: 2;
 }
 
 .item-projects p {
@@ -50,6 +63,7 @@
     top: 50%;
     text-align: left;
     left: 4%;
+    z-index: 2;
 }
 
 @media (max-width: 1200px) {

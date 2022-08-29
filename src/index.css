@@ -16,9 +16,7 @@
   text-decoration: none;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  font-family: 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Montserrat', 'Segoe UI', 'Roboto';
 }
 
 html {
@@ -26,9 +24,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Montserrat', 'Segoe UI', 'Roboto';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
