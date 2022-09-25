@@ -51,6 +51,11 @@
   transition: all 0.3s ease;
 }
 
+.lottie {
+  width: 100% !important;
+  height: 400px !important;
+}
+
 .btn-primary:hover {
   color: rgb(68, 163, 167);
   background: rgba(1, 196, 202, 0.4);
@@ -65,14 +70,6 @@
 
 .right-img {
   width: 100%;
-}
-
-.img-home {
-  width: auto;
-  height: 400px;
-  border-radius: 2rem;
-  margin-right: 50px;
-  margin-left: 40px;
 }
 
 .blob {
@@ -121,6 +118,8 @@
     width: 95%;
     margin-left: 0px;
   }
+
+
 }
 
 @media (max-width: 768px) {
@@ -149,12 +148,7 @@
     padding: 12px 28px;
   }
 
-  .img-home {
-    /* width: 200px;
-    height: 200px;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 60px; */
+  .lottie {
     display: none;
   }
 }
