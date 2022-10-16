@@ -2,7 +2,6 @@ import './Home.css';
 import {useTypewriter} from 'react-simple-typewriter'
 import Blob from './blob.js'
 
-
 export default function Home() {
 
   const {text} = useTypewriter({

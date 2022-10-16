@@ -18,7 +18,7 @@ export default function Projects() {
                 <Slider {...settings}>
                     <div class="item-projects img-1">
                         <div class="img-overlay"></div>
-                        <a href="https://github.com/EnzoSylvestrin/MoveStats" target="_blank" rel="noopener noreferrer">
+                        <a href="https://movestats.vercel.app" target="_blank" rel="noopener noreferrer">
                             <h3>MoveStats</h3>
                             <p>Projeto finalista na febrace 2022 desenvolvido para facilitar na locomoção de deficientes visuais.</p>
                         </a>
