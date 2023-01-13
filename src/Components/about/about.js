@@ -14,7 +14,7 @@ export default function About() {
                     <div class="texto-about">
                         <h3>Quem sou eu?</h3>
                         <p>
-                        Eu sou de Jundiaí SP. estou atualmente estudando infomática na escola Prof. Luiz Rosa, e começei minha carreira em TI na Bitbyte infomática, empresa com a qual ainda trabalho, sou apaixonado por automação de sistemas e atuo também como freelancer. Para saber mais sobre minhas habilidades e sobre minha carreira clique e faça o download do meu curriculo.
+                            Eu sou de Jundiaí SP. estou atualmente estudando infomática na escola Prof. Luiz Rosa, e começei minha carreira em TI na Bitbyte infomática, empresa com a qual ainda trabalho, sou apaixonado por automação de sistemas e atuo também como freelancer. Para saber mais sobre minhas habilidades e sobre minha carreira clique e faça o download do meu curriculo.
                         </p>
                         <a href={Curriculo} target="_blank" rel="noopener noreferrer" class="btn btn-primary">Currículo</a>
                     </div>

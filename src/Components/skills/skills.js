@@ -6,9 +6,9 @@ export default function Skills() {
     var passou = true;
 
     const restDescription = 'de experiência com essa tecnologia.'
-    const listColors = ['#83cd29', '#68217a', ' #ffd845', '#e62c2d', '#61dafb', '#61dafb', ' #e54d26', '#3d8fc6', '#007acc', '#f0db4f']; 
-    const titles = ['Node.js', 'C Sharp', 'Python', 'Java', 'React Native', 'React', 'HTML5', 'CSS3', 'TypeScript', 'JavaScript'];
-    const progress = ['50', '50', '33.33', '110', '30', '80', '120', '100', '25', '100']
+    const listColors = ['#83cd29', '#68217a', ' #ffd845', '#e62c2d', '#61dafb', '#61dafb', ' #e54d26', '#3d8fc6', '#007acc', '#f0db4f', '#c0bcbc']; 
+    const titles = ['Node.js', 'C Sharp', 'Python', 'Java', 'React Native', 'React', 'HTML5', 'CSS3', 'TypeScript', 'JavaScript', 'Next'];
+    const progress = ['50', '50', '33.33', '110', '30', '80', '120', '100', '25', '100', '50'];
     const descriptions = 
     [
     `6 meses ${restDescription}`,
@@ -20,7 +20,8 @@ export default function Skills() {
     `1 ano ${restDescription}`,
     `1 ano ${restDescription}`,
     `3 meses ${restDescription}`,
-    `1 ano ${restDescription}`
+    `1 ano ${restDescription}`,
+    `6 meses ${restDescription}`,
     ];
 
     function criaListener(id) {
@@ -82,6 +83,9 @@ export default function Skills() {
                     </div>
                     <div class="single-item">
                         <i class="devicon-javascript-plain colored" id="icon-language"></i>
+                    </div>
+                    <div class="single-item">
+                        <i style={{color: '#c0bcbc'}} class="devicon-nextjs-plain" id="icon-language"></i>
                     </div>
                 </div>
             </div>

@@ -30,6 +30,12 @@ export default function Projects() {
                         </a>
                     </div>
                     <div class="item-projects img-3">
+                        <a href="https://sorteio-plum.vercel.app" target="_blank" rel="noopener noreferrer">
+                            <h3>Sorteio next</h3>
+                            <p>Site simples de sorteio de números feito para testar e aprimorar meus conhecimentos com Next.js</p>
+                        </a>
+                    </div>
+                    <div class="item-projects img-4">
                         <a href="https://github.com/EnzoSylvestrin" target="_blank" rel="noopener noreferrer">
                             <h3>Github</h3>
                             <p>Para acessar todos meus projetos acesse meu github.</p>

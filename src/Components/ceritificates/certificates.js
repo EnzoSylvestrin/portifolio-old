@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import febrace from "./assets/febrace.png";
 import node from "./assets/node.png";
+import femic from "./assets/certificadoFemic.png";
 
 export default function Certificates() {
     var settings = {
@@ -40,6 +41,12 @@ export default function Certificates() {
                         <img src={febrace} alt="Certificado Febrace 2022"></img>
                     </div>
                     <h3><span>Certificado Febrace 2022</span></h3>
+                </div>
+                <div class="item">
+                    <div class="img-item">
+                        <img src={femic} alt="Certificado Femic 2022"></img>
+                    </div>
+                    <h3><span>Certificado Femic, segundo lugar em ciências Exatas e da Terra!</span></h3>
                 </div>
             </Slider>
             </div>

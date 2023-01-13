@@ -41,6 +41,10 @@
 }
 
 .img-3 {
+    background-image: url(./assets/Sorteio.png);
+}
+
+.img-4 {
     background-image: url(./assets/git.png);
 }
 
