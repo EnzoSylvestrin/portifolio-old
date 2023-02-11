@@ -1,10 +1,6 @@
-<h1 align="center">
-  💻<br /><a href="https://enzosylvestrin.github.io/portifolio/">Portfólio - Enzo Sylvestrin</a>
-</h1>
+<h1 align="center">🚧 Esse é meu portfólio antigo, como mudei o nome do repo o site não vai abrir, para ver meu portfolio clique <a href="https://portfolio-enzosylvestrin.vercel.app">aqui</a> 🚧</h1><br />
 
 ![Resultado final do projeto](img-preview.png)
-
-<h4 align="center"><a href="https://enzosylvestrin.github.io/portifolio/">Clique para visitar o projeto</a></h4>
 
 ## 📚 Seções
 
